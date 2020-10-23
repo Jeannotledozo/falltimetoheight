@@ -8,7 +8,7 @@ public class Code {
 		float FallTime = keyboard.nextFloat();
 		float HeightFeet = 16*(FallTime*FallTime);
 		double HeightMeters = HeightFeet/3.2808;
-		System.out.println("The height is " + HeightFeet +" feets, or " + Math.round(HeightMeters) + "meters");
+		System.out.println("The height is " + HeightFeet +" feets, or " + Math.round(HeightMeters) + " meters");
 
 	}
 
